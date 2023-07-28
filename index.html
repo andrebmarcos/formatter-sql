@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatar SQL</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/default.min.css">
+    
+</head>
+<header>
+    <h1 class="titulo">FORMATAR QUERY SQL</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">SQL Formatter</a></li>
+            <li><a href="htmlformatter.html">HTML Formatter(EM BREVE)</a></li>
+            <li><a href="cssformatter.html">CSS Formatter(EM BREVE)</a></li>
+            <li><a href="javascriptformatter.html">Javascript Formatter(EM BREVE)</a></li>
+
+        </ul>
+    </nav>
+</header>
+<body>
+    
+    <div class="pai">
+    <div class="container">
+    
+    <textarea type="text" id="input" name="" id="" cols="30" rows="10" placeholder="DIGITE SUA QUERY"></textarea>
+        
+    </div>
+    <div class="container2">
+        <button class="formatar" onclick="format()">Formatar</button>
+        <button class="copiar" onclick="btncopiar()">Copiar</button>
+        <button class="baixar" onclick="download()">Download</button>
+    </div>
+    
+    <div class="container3">
+    <textarea class="resultado" id="output" name="" id="" cols="30" rows="10" ></textarea>
+
+       
+    </div>
+</div>
+
+<footer class="rodape">
+    <div class="social"></div>
+    <a href="https://www.linkedin.com/in/andrebmarcos/">
+    <img src="./src/img/linkedin_2.png" alt="Linkedin" class="linke" ></a>
+    <a href="https://github.com/andrebmarcos">
+    <img src="./src/img/git_2.png" alt="Github" class="git"></a>
+    </div>
+    <p class="copyrigth">&copy; André Marcos – 2023</p>
+</footer>
+
+  <script src="./src/js/script.js"></script>
+  
+
+</body>
+</html>
+
+
